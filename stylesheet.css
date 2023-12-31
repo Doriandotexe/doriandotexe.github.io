@@ -1,0 +1,48 @@
+body {
+      margin: 0;
+    }
+
+    .loading-text {
+font-family: 'JetBrains Mono', monospace;
+	 font: 'ExtraLight 200';
+      position: fixed;
+      top: 20px;
+      left: 20px;
+      font-size: 18px;
+      color: #ff1111;
+      white-space: pre-wrap; /* Allows line breaks */
+      display: none; /* Initially hide the loading text */
+    }
+p {
+	font-family: 'JetBrains Mono', monospace;
+	 font: 'ExtraLight 200';
+      text-align: left;
+      position: fixed;
+      top: 20px;
+      left: 20px;
+      font-size: 18px;
+      color: #ff1111;
+      white-space: pre-wrap; /* Allows line breaks */
+      display: none; /* Initially hide the loading text */
+}
+     .content {
+            display: none;
+        }
+    .open-text {
+	font-family: 'JetBrains Mono', monospace;
+	 font: 'ExtraLight 200';
+      text-align: left;
+      top: 20px;
+      left: 20px;
+      position: fixed;
+      font-size: 18px;
+      color: #ff1111;
+      white-space: pre-wrap; /* Allows line breaks */
+      display: none; /* Initially hide the loading text */
+    }
+a {
+	  color: #ff1111;
+}
+a:visited {
+	  color: #ff1111;
+}
