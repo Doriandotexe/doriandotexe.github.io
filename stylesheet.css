@@ -47,7 +47,12 @@ a:visited {
     .ascii-logo {	      
     font-size: 9px;
 	color: #ff1111;
+	padding-top: 20px;
+	padding-left: 20px
+
 }
     .text-under-logo {
       margin-top: -10px; /* Adjust space between logo and text */
-    }
+	padding-left: 20px
+
+}
