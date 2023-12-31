@@ -14,7 +14,7 @@
   <div class="loading-text" id="loadingText"></div>
   <div class="open-text" id="openText">
 &#62; Open Dorian.exe?
-&#62; <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Go Back</a> &#62; <a href="url">Yes</a>
+&#62; <a href="#" id="closeWindowLink">Exit</a> &#62; <a href="url">Yes</a>
   </div>
    <script>
     document.addEventListener("DOMContentLoaded", function() {
@@ -42,6 +42,14 @@
 
         index++;
       }, 750); // Adjust the delay time between each line (in milliseconds)
+    });
+  </script>
+    <script>
+    document.getElementById("closeWindowLink").addEventListener("click", function(event) {
+      event.preventDefault(); // Prevent the default link behavior
+
+      // Close the current window/tab
+      window.close();
     });
   </script>
 </body>
