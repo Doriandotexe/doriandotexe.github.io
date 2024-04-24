@@ -38,7 +38,7 @@
 
   <!-- main content of the page -->
   <main>
-
+    
     <div class="sidebar"> 
       
       <!-- sidebar menu. in mobile-view, this moves to the end of the page. -->
@@ -46,7 +46,7 @@
 
         <!-- for categories linking to just one page, a simple link is all you need. -->
         <a href="index.html" class="category">home</a>
-        
+        <a href="about.html" class="category">about me</a>
         <!-- for categories that have sublinks/multiple pages, chuck them into a details & summary combo, with the subcategories in a list. -->
         <details>
           <summary class="category">Arts</summary>
@@ -58,9 +58,15 @@
               </ul>
             </div>
         </details>
-
-        <a href="about.html" class="category">about me</a>
-
+        <details>
+          <summary class="category">Fun Stuff</summary>
+            <!-- DO NOT remove class="tree-view" in the nav -->
+            <div class="tree-view">
+              <ul>
+                <li><a href="page.html">Thoughts</a></li>             
+              </ul>
+            </div>
+        </details>
         <a href="sitemap.html" class="category">sitemap</a>
 
       </nav>
