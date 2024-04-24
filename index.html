@@ -2,16 +2,6 @@
 <html lang="en">
 <head>
 
-<!-- 
-
-                      CC-LINK v1.1
-
-      /// A WEBSITE TEMPLATE BY CC DEBTDEATH \\\
-
-          https://debtdeath.neocities.org/
-
- -->
-
   <!-- regular ol' html meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -55,12 +45,14 @@
       <!-- sidebar menu. in mobile-view, this moves to the end of the page. -->
       <nav id="menu">
 
-        <!-- for categories linking to just one page, a simple link is all you need. -->
-        <a href="index.html" class="category">home</a>
-        
-        <!-- for categories that have sublinks/multiple pages, chuck them into a details & summary combo, with the subcategories in a list. -->
-        <details>
-          <summary class="category">Arts</summary>
+        <p>&nbsp;</p>
+        <p>
+          <!-- for categories linking to just one page, a simple link is all you need. -->
+          <a href="index.html" class="category">home</a>
+          <!-- for categories that have sublinks/multiple pages, chuck them into a details & summary combo, with the subcategories in a list. -->
+        </p>
+<details>
+        <summary class="category">Arts</summary>
             <!-- DO NOT remove class="tree-view" in the nav -->
             <div class="tree-view">
               <ul>
@@ -104,31 +96,10 @@
           <h2>My Status:</h2>
 		<div id="statuscafe"><div id="statuscafe-username"></div><div id="statuscafe-content"></div></div><script src="https://status.cafe/current-status.js?name=dorian1exe" defer></script>
 <div id="statuscafe-username">Discord Status:</div>
-	<div id="statuscafe-content">  <div id="status"></div></div>
+<div id= iframedisc>
+<iframe id="discord-status-embed" src="https://lanyard.cnrad.dev/api/774413933653393449?theme=light&bg=D7EACB&borderRadius=1em&hideActivity=true&" scrolling="no"></iframe> </div>
 
-    <script>
-        // Function to fetch and display Discord status
-        function fetchDiscordStatus() {
-            fetch('https://api.lanyard.rest/v1/users/774413933653393449')
-                .then(response => {
-                    if (!response.ok) {
-                        throw new Error('Failed to fetch Discord status');
-                    }
-                    return response.json();
-                })
-                .then(data => {
-                    const customStatus = data.activities.find(activity => activity.type === 4);
-                    const customStatusText = customStatus ? customStatus.state : '';
-                    document.getElementById('status').innerText = customStatusText;
-                })
-                .catch(error => {
-                    console.error('Error fetching Discord status:', error);
-                });
-        }
 
-        // Fetch Discord status on page load
-        fetchDiscordStatus();
-    </script>
 		  </section>
 <section>
           <h2>Title</h2>
