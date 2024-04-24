@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+  <!-- regular ol' html meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- change this to your site title! this is the text on the browser tab -->
+  <title>Dorian's Cool Site</title>
+
+  <!-- meta tags for site previews and social media, change this to be yours! -->
+  <meta name="description" content="website description">
+  <meta name="author" content="name">
+
+  <!-- you can make a 32x32px .png and convert it to .ico at https://favicon.io/ -->
+  <link rel="icon" href="favicon.ico">
+
+  <!-- stylesheet -->
+  <link href="css/style.css" rel="stylesheet" type="text/css" media="all">
+
+  <style>
+    
+  </style>
+</head>
+
+<body>
+
+  <!-- header that only shows up on mobile -->
+  <header class="mobile-only">
+    <!-- you can replace the <p> contents with an emoji if you want -->
+    <div><p>///</p></div>
+    <!-- this takes you back to the homepage -->
+    <div><a href="index.html">home</a></div>
+    <!-- this links to the menu -->
+    <div><a href="#menu">menu</a></div>
+  </header>
+
+  <!-- main content of the page -->
+  <main>
+
+    <div class="sidebar"> 
+      
+      <!-- sidebar menu. in mobile-view, this moves to the end of the page. -->
+      <nav id="menu">
+
+        <!-- for categories linking to just one page, a simple link is all you need. -->
+        <a href="index.html" class="category">home</a>
+        
+        <!-- for categories that have sublinks/multiple pages, chuck them into a details & summary combo, with the subcategories in a list. -->
+        <details>
+          <summary class="category">Arts</summary>
+            <!-- DO NOT remove class="tree-view" in the nav -->
+            <div class="tree-view">
+              <ul>
+                <li><a href="page.html">MS Paint</a></li>
+                <li><a href="gallery.html">Photography</a></li>
+              </ul>
+            </div>
+        </details>
+
+        <a href="about.html" class="category">about me</a>
+
+        <a href="sitemap.html" class="category">sitemap</a>
+
+      </nav>
+
+      <!-- optional widgets -->
+
+      <div class="widget">
+        <h3>This site is under construction!</h3>
+		</div>
+		
+		
+		
+    </div>
+
+    <div class="content">
+
+      <!-- here's a section with a two-column layout -->
+      <section>
+        <h1>About me</h1>
+        <div class="flex-columns">
+          <div class="flex-text">
+            <p>Hi! I'm <b>Dorian.</b> I'm a <b>Socialist</b> from Ukraine. I use <b>He/Him</b> pronouns. </p>
+          </div>
+          <div class="flex-image">
+<img src="img/pfp3.jpg" style="border-radius: 25px;">
+			</div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Fun Facts </h2>
+        <!-- arrow list -->
+          <ul class="arrow-list">
+            <li>I Speak English, Russian and Ukrainian.</li>
+            <li>I'm in college studying Political Science! </li>
+            <li>I love entomology, etymology, sociology, philosphy, existentialism, absurdism, post-modernism, and political science. =) </li>
+          </ul>
+      </section>
+      <section>
+<h2>interests</h2>
+        <div id="interests">
+          <p><b>Films:</b> Requiem for a Dream, The Man who Sleeps, Taxi Driver, Happy Together, The French Dispatch, Dead Poet's Society, Asteroid City, Maurice</p>
+          <hr>
+          <p><b>Literature:</b> The Picture of Dorian Gray (Wilde), The Myth Of Sisyphus (Camus), Wilde's poetry, Yesenin's Poetry, White Nights, (Dosteovsky) No Exit (Sartre) </p>
+          <hr>
+          <p><b>Video Games:</b> Disco Elysium, Outer Wilds, Baldur's Gate 3, Night in the Woods, Divinity Original Sin 2, Elden Ring, Valheim </p>
+          <hr>
+          <p><b>Music:</b> Will Wood, Hozier, Molchat Doma, Harley Poe, Dead Kennedys </p>
+          <hr>
+        </div>
+      </section>
+		
+		
+		
+		
+    </div>
+
+  </main>
+
+  <footer>
+    <p>Dorian / 2024</p>
+  </footer>
+
+</body>
+</html>
