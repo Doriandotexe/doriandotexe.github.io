@@ -4,7 +4,7 @@
 
 :root {
   /* column widths */
-  --widthSidebar: 250px;
+  --widthSidebar: 300px;
   --widthContent: 800px;
 
   /* general page and text colours */
@@ -184,6 +184,16 @@ b {
 	color: var(--colorSecondary);
 }
 
+b2 {
+	border:1px solid var(--colorSecondary);
+	text-align: center;
+    border-radius: 14px;
+    padding: 0 8px;
+    margin-right: 4px;
+    font-weight: normal;
+}
+
+
 a {
 	color: var(--colorLink);
 }
@@ -275,14 +285,14 @@ nav {
 nav .category {
 	display: block;
 	position: relative;
-	padding: 0.5em;
-	  border-radius: 0.3em;
+	padding: 0.4em;
+	border-radius: 0.3em;
 	margin: 0.5em 0;
 	color: var(--colorText);
 	background: var(--colorBackgroundMain);
 	border: var(--borderSolid);
 	font-family: var(--fontTitle);
-	font-size: 16px;
+	font-size: 1.25em;
 	text-decoration: none;
 	text-transform: uppercase;
 
@@ -319,6 +329,7 @@ nav > details[open] > .category::after {
 nav ul li {
 	font-family: var(--fontTitle);
 	text-transform: uppercase;
+	font-size: 1.5em;
 }
 
 /* sidebar widgets */
