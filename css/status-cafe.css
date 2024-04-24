@@ -1,0 +1,24 @@
+/* status cafe */
+
+#statuscafe {
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	max-width: 400px;
+	margin: auto;
+}
+
+#statuscafe-username {
+	padding: 4px;
+	text-align: center;
+	border: var(--borderSolid);
+	border-radius: 1em;
+	margin: 8px 0;
+}
+
+#statuscafe-content {
+	background-color: var(--colorTertiary);
+	padding: 8px;
+	border-radius: 1em 1em 1em 0;
+	word-wrap: break-word;
+}
