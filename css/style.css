@@ -50,13 +50,27 @@
 }
 /* title font - Palmer */
 @font-face {
-  font-family: 'Palmer';
-  src: url('../fonts/Palmer Lake (Font Duo)/OTF/Palmer Lake Print.otf') format('otf')
+    font-family: 'palmer_lake_printregular';
+    src: url('../fonts/palmer_lake_print-webfont.woff2') format('woff2'),
+         url('../fonts/palmer_lake_print-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 /* title font - Wilden */
 @font-face {
-  font-family: 'Wilden';
-  src: url('../fonts/Wilden/Wilden.otf"') format('ttf')
+    font-family: 'wildenregular';
+    src: url('../fonts/wilden-webfont.woff2') format('woff2'),
+         url('../fonts/wilden-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/* title font - Cainamons */
+@font-face {
+    font-family: 'cainamonsregular';
+    src: url('../fonts/cainamons-webfont.woff2') format('woff2'),
+         url('../fonts/cainamons-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 /* body font - DM mono */
