@@ -29,7 +29,7 @@
   --fontTitle: 'Palmer', monospace;
 
   /* borders */
-  --borderSolid: 1px solid #1d012c;
+  --borderSolid: 1px solid #6E8D53;
   --borderDotted: 1px dotted #1d012c;
   --borderTree: 1px solid #1d012c;
 
@@ -51,12 +51,12 @@
 /* title font - Palmer */
 @font-face {
   font-family: 'Palmer';
-  src: url('../fonts/Palmer Lake (Font Duo)/Palmer Lake Print.ttf') format('ttf')
+  src: url('../fonts/Palmer Lake (Font Duo)/OTF/Palmer Lake Print.otf') format('otf')
 }
 /* title font - Wilden */
 @font-face {
   font-family: 'Wilden';
-  src: url('../fonts/Wilden/Wilden.ttf') format('ttf')
+  src: url('../fonts/Wilden/Wilden.otf"') format('ttf')
 }
 
 /* body font - DM mono */
@@ -228,11 +228,19 @@ figure > figcaption {
 	font-size: 12px;
 }
 
-audio, video, iframe {
+audio, video, {
 	display: block;
 	margin: auto;
 	border: var(--borderSolid);
 	box-shadow: 0.3em 0.3em var(--colorShadow);
+}
+iframe {
+	display: block;
+    border: none;
+	width: 20em;
+height: 5em;
+overflow: hidden;
+border-radius: 1em 1em 1em 1em;
 }
 
 details > summary {
@@ -646,11 +654,11 @@ section .tree-view > p {
 		max-width: 250px;
 	}
 
-	audio, video, iframe {
+	audio, video, {
 		width: 100%;
 	}
 
-	video, iframe {
+	video, {
 		height: 200px;
 	}
 
@@ -698,5 +706,5 @@ section .tree-view > p {
 	.preview-frame h3, .preview-frame p {
 		padding-left: 12px;
 	}
-
-}
+	#iframedisc {
+	}
