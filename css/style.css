@@ -742,6 +742,7 @@ border: none;
     width: 100%; /* Adjusted to fit the scaled iframe */
     height: auto; /* Automatically adjusts height */
     max-width: 420px; /* Limit maximum width to original size */
+    height: 185px;
     overflow: hidden;
     position: relative;
 transform: scale(0.20);
