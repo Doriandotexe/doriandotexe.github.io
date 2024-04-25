@@ -731,5 +731,32 @@ section .tree-view > p {
 	.preview-frame h3, .preview-frame p {
 		padding-left: 12px;
 	}
-	#iframedisc {
+	.iframedisc {
+width: 20em;
+height: 5em;
+border-radius: 1em 1em 1em 1em;
+display: block;
+border: none;
 	}
+
+
+.iframeduo {
+  /* Set the width of the iframe the size you want to transform it FROM */
+  width: 420px;
+  height: 185px;
+  /* apply the transform */
+    -ms-zoom: 0.01;
+        -moz-transform: scale(0.01);
+        -moz-transform-origin: 0 0;
+        -o-transform: scale(0.01);
+        -o-transform-origin: 0 0;
+        -webkit-transform: scale(0.01);
+        -webkit-transform-origin: 0 0;
+		transform: scale(0.01);
+		transform-origin: 0 0;
+  /* position it, as if it was the original size */
+  position: absolute;
+  left: -400px;
+  top: -200px;
+border-radius: 1em 1em 1em 1em;
+}
