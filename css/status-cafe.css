@@ -19,6 +19,6 @@
 #statuscafe-content {
 	background-color: var(--colorTertiary);
 	padding: 8px;
-	border-radius: 1em 1em 1em 0;
+	border-radius: 1em 1em 1em 1em;
 	word-wrap: break-word;
 }
